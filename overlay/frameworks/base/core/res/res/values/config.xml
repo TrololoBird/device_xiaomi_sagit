@@ -97,4 +97,5 @@
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
     <integer name="config_deviceHardwareKeys">83</integer>
    <bool name="config_multiColorBatteryLed">false</bool>
+    <bool name="config_button_brightness_support">true</bool>
 </resources>

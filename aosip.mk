@@ -1,9 +1,8 @@
 $(call inherit-product, device/xiaomi/sagit/full_sagit.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_sagit
+PRODUCT_NAME := aosip_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
