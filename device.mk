@@ -46,3 +46,7 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
+
+# Xiaomi custom
+$(call inherit-product, vendor/XiaomiCustom/XiaomiCustom.mk)
+
