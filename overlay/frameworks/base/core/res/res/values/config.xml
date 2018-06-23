@@ -95,7 +95,4 @@
     <integer name="config_deviceHardwareKeys">83</integer>
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
-   <bool name="config_multiColorBatteryLed">false</bool>
-    <bool name="config_button_brightness_support">true</bool>
 </resources>

@@ -1,13 +1,9 @@
 $(call inherit-product, device/xiaomi/sagit/full_sagit.mk)
 
 # Inherit some common DU stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
-# Build Launcher3
-PRODUCT_PACKAGES += \
-        Launcher3
-
-PRODUCT_NAME := du_sagit
+PRODUCT_NAME := potato_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
