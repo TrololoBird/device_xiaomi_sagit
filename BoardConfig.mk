@@ -29,8 +29,8 @@ TARGET_KERNEL_CONFIG := sagit_defconfig
 TARGET_OTA_ASSERT_DEVICE := sagit
 
 # Lineage Hardware
-BOARD_HARDWARE_CLASS += \
-    $(DEVICE_PATH)/lineagehw
+#BOARD_HARDWARE_CLASS += \
+#    $(DEVICE_PATH)/lineagehw
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
