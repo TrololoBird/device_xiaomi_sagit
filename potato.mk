@@ -1,6 +1,7 @@
 $(call inherit-product, device/xiaomi/sagit/full_sagit.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
-PRODUCT_NAME := sagit
+PRODUCT_NAME := potato_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
